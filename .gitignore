@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pkl
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Environment variables
+.env
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# VSCode
+.vscode/
+
+# Logs and local dev files
+*.log
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# Frontend (Node.js)
+node_modules/
+client/node_modules/
+client/.env.local
+client/.next/
+client/.turbo/
+client/.eslintcache
+
+# Build & Cache
+dist/
+build/
+.cache/
+__pycache__/
+
+# OS-specific
+*.DS_Store
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# Coverage
+htmlcov/
+.coverage
+.tox/
+.nox/
+.cache/
+.pytest_cache/
+
+# PyInstaller
+*.spec
+
+# Pydantic compiled files (LangChain deps)
+*.c
+
+# Other
+*.sqlite3
+
+data/
